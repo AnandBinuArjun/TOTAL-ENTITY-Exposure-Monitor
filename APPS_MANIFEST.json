@@ -1,0 +1,17 @@
+[
+    {
+        "platform": "Android",
+        "path": "mobile_android/app/src/main/java/com/cortex/monitor/MainActivity.kt",
+        "instructions": "Open 'mobile_android' in Android Studio. Sync Gradle. Run on Emulator."
+    },
+    {
+        "platform": "iOS",
+        "path": "mobile_ios/CortexRecovery/ContentView.swift",
+        "instructions": "Open 'mobile_ios' folder in Xcode. Create new Project -> App -> name 'CortexRecovery'. Drag these files in."
+    },
+    {
+        "platform": "Web",
+        "path": "frontend/",
+        "instructions": "cd frontend && npm run dev"
+    }
+]
