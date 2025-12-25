@@ -21,11 +21,11 @@ graph TD
     user((User Identity)) -->|Email/Phone| api[FastAPI Backend]
     
     subgraph "Core Intelligence Engine"
-        api --> privacy[Privacy Layer\nk-Anonymity Hashing]
-        privacy --> ingestion[Ingestion Engine\nHIBP API + Leaks]
-        ingestion --> id_graph[Identity Graph\nBlast Radius Map]
-        id_graph --> risk[Risk Math Core\nL x I x (1-M)]
-        risk --> actions[Action Prioritization\nROI Calculation]
+        api --> privacy["Privacy Layer\nk-Anonymity Hashing"]
+        privacy --> ingestion["Ingestion Engine\nHIBP API + Leaks"]
+        ingestion --> id_graph["Identity Graph\nBlast Radius Map"]
+        id_graph --> risk["Risk Math Core\nL x I x (1-M)"]
+        risk --> actions["Action Prioritization\nROI Calculation"]
     end
     
     actions --> db[(PostgreSQL\nRisk Store)]
